@@ -9,6 +9,6 @@ public class YearlyMaintenanceCost
         double winterCost = 425.00;
         double totalCost = springCost + fallCost + winterCost + summerCost;
 
-        System.out.println("The total yearly cost is " +totalCost + " and this was found by adding the cost of Spring maintenance of " +springCost + " , the summer maintenance of " +summerCost + " , the fall maintenance of " +fallCost + " , and the winter maintencance of " +winterCost + " together.");
+        System.out.println("The total yearly cost is " +totalCost + " and this was found by adding all the costs from spring maintenance of " +springCost + ", the summer maintenance of " +summerCost + ", the fall maintenance of " +fallCost + ", and the winter maintenance of " +winterCost + " together.");
     }
 }
